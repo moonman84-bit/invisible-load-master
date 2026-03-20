@@ -1,0 +1,58 @@
+
+.ratingcontainer{
+    width: 100%;
+    max-width: 900px;
+    
+}
+
+.ratingcontainer .ratingslide {
+    width: 100%;
+    cursor: pointer;
+}
+
+.ratingcontainer .rating-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.ratingcontainer .rating-labels span {
+    width: 14px;
+    display: block;
+
+}
+
+.ratingcontainer .ratingsbox button {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 1em;
+}
+.ratingcontainer .ratingsbox h2 {
+    margin-bottom: 50px;
+}
+
+.ratingcontainer .ratingslide {
+    /* webkit-appearance: none; Override default look */
+  /* appearance: none;
+    background-color: #5662a3; */
+}
+.slidercontainer {
+    display: flex;
+}
+.ratingcontainer .ratingslidercontainer {
+    width: 100%;
+    padding-left: 20px;
+    margin-bottom: 70px;
+}
+
+.ratingcontainer .ratingsbox .slidercontainer .ratingicon img{
+    width: 100%;
+    max-width: 250px;
+}
+.ratingslidercontainer h2 {
+    text-align: left;
+}
+.calculatebtn button {
+    background: #fff;
+    padding: 15px 20px;
+    cursor:pointer;
+}

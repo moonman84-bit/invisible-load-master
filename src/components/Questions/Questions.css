@@ -1,0 +1,841 @@
+@media only screen and (max-width: 1028px) {
+.container{
+max-width: 100%!important;
+}
+}
+
+
+@media only screen and (max-width: 768px) {
+  .mobile-padding {
+    padding: 0 15px;
+    margin-bottom: 20px;
+  }
+}
+
+.imgholder {
+  padding: 0 10px;
+}
+
+.imgholder img {
+  width: 100%;
+}
+
+.buttoncontainer {
+  /*	display:flex;*/
+}
+
+.buttoncontainer ul li {
+  display: inline;
+  padding: 15px 20px;
+  background-color: black;
+  color: white;
+}
+
+.buttoncontainer button {
+  padding: 10px 24px 11px 24px;
+  border-radius: 20px;
+  background-color: #000;
+  border: none;
+  color: #fff;
+
+  display: inline-flex;
+
+  justify-content: center;
+
+  align-items: center;
+  position: relative;
+  vertical-align: middle;
+  font-family: "SamsungOne", arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 19px;
+  white-space: nowrap;
+}
+
+.wrapcontent {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  background-color: rgba(254, 254, 246, 0.309);
+  font-family: "SamsungOne", arial, sans-serif;
+}
+.wrapcontent ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.wrapcontent ul li {
+  display: inline;
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  margin: 0 15px;
+}
+
+.buttontext {
+  color: white;
+  padding: 15px 20px;
+  background-color: black;
+  display: inline;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#start {
+  height: 100vh;
+  background-color: #68aeff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#start h2 {
+  font-size: 48px;
+  font-family: "SamsungOne", arial, sans-serif;
+  font-weight: bold;
+}
+#start .subtext {
+  font-size: 18px;
+  font-family: "SamsungOne", arial, sans-serif;
+  text-align: left;
+}
+
+#start .buttoncontainer {
+  margin-top: 30px;
+}
+#start .buttoncontainer button {
+  padding: 10px 15px;
+  margin: 0 10px;
+}
+#firstquestion {
+  height: 100%;
+
+  background-color: #f7f5f2;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+  color: #000;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#firstquestion .situationbtns {
+  margin-bottom: 25px;
+  background: #fff;
+  border-radius: 15px;
+  border: 2px solid #000;
+  min-height: 205px;
+  max-width: 330px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#firstquestion h2 {
+  font-size: 42px;
+  /* margin-top: 135px; */
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  
+}
+
+@media only screen and (max-width: 767px) {
+  #firstquestion h2 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+  #firstquestion h2 {
+    font-size: 36px;
+  }
+}
+#firstquestion ul {
+  display: flex;
+}
+#firstquestion ul li {
+  background-color: transparent;
+}
+#firstquestion input[type="radio"][id^="livechild"],
+#firstquestion input[type="radio"][id^="liveonown"],
+#firstquestion input[type="radio"][id^="livepartner"],
+#firstquestion input[type="radio"][id^="livefamily"],
+#firstquestion input[type="radio"][id^="liveshared"] {
+  display: none;
+}
+#firstquestion label {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#firstquestion label .labeltext {
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  padding: 0 15px;
+  word-break: break-word;
+}
+@media only screen and (max-width: 578px) {
+  #firstquestion label .labeltext {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
+
+#firstquestion label img {
+  width: 100%;
+}
+#firstquestion label .situationimages {
+}
+
+#firstquestion input[type="radio"]:checked + .situationbtns {
+  border: 2px solid #2089ff;
+}
+#firstquestion .calculategrid {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+
+#firstquestion .calculategrid button {
+  padding: 10px 24px 11px 24px;
+  border-radius: 20px;
+  background-color: #000;
+  border: none;
+  color: #fff;
+
+  display: inline-flex;
+
+  justify-content: center;
+
+  align-items: center;
+  position: relative;
+  vertical-align: middle;
+
+  font-family: "SamsungOne", arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 19px;
+  white-space: nowrap;
+  max-width: 265px;
+  /* max-width: 365px; IT expand */
+
+
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  #firstquestion .calculategrid button {
+    font-size: 12px;
+  }
+}
+
+#firstquestion .calculategrid #continue:disabled,#continue[disabled]{
+  border: 1px solid #dddddd!important;
+  background-color: #dddddd!important;
+  color: #aaaaaa!important;
+}
+#secondquestion {
+  height: 100%;
+
+  background-color: #f7f5f2;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center;
+  flex-direction: column; */
+  color: #000;
+  padding: 40px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#secondquestion h2 {
+  font-size: 42px;
+  /* margin-top: 135px; */
+  margin-top: 20px;
+  margin-bottom: 23px;
+  font-weight: bold;
+  font-family: "SamsungOne", arial, sans-serif;
+}
+
+@media only screen and (max-width: 767px) {
+  #secondquestion h2 {
+    font-size: 24px;
+    padding: 0 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-wdth: 1023px){
+  #secondquestion h2 {
+    font-size: 36px;
+    line-height: 1.16;
+  }
+}
+
+#secondquestion .subheadline {
+  font-family: "SamsungOne", arial, sans-serif;
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 42px;
+  
+}
+
+@media only screen and (max-width: 1023px) {
+  #secondquestion .subheadline {
+    padding: 0 10px;
+    font-size: 15px;
+  }
+}
+
+#secondquestion .timetitles {
+  font-size: 14px;
+}
+#secondquestion .timeimages {
+  margin: 0 auto;
+}
+#secondquestion .timeimages img {
+  width: 100%;
+  max-width: 33px;
+}
+#secondquestion .fullchores .checkmark {
+  position: relative;
+}
+#secondquestion .fullchores .icons img {
+  width: 100%;
+  max-width: 60px;
+}
+
+#secondquestion .fullchores .checkbox {
+  display: inline-block;
+  width: 33px;
+  height: 33px;
+  border: none; /* Blue border color */
+  border-radius: 50%; /* Ensures the checkbox is round */
+
+  cursor: pointer;
+  clip-path: circle(48%); /* Creates a round shape */
+  appearance: none;
+  outline: #000;
+}
+@media only screen and (max-width: 320px){
+  #secondquestion .fullchores .checkbox {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+#secondquestion .fullchores .customCheckbox {
+  width: 33px;
+  height: 33px;
+  border: 2px solid #000; /* Blue border color */
+  top: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%; /* Ensures the checkbox is round */
+  position: absolute;
+  z-index: 99;
+  
+}
+
+@media only screen and (max-width: 320px) {
+  #secondquestion .fullchores .customCheckbox {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+
+
+#secondquestion .fullchores {
+  background-color: #fff;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  #secondquestion .fullchores {
+    height: 100%;
+    padding: 15px;
+  }
+}
+
+#secondquestion .fullchores .resetbutton svg {
+  fill: #000;
+  height: 33px;
+  margin: 0 auto;
+  width: 33px;
+  top: 4px;
+  left: 4px;
+  position: relative;
+}
+@media only screen and (max-width: 320px) {
+  #secondquestion .fullchores .resetbutton svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+#secondquestion .fullchores .resetbutton {
+  border-radius: 20px;
+  border: 1px solid #dddddd;
+}
+@media only screen and (max-width: 480px) {
+  #secondquestion .fullchores .resetbutton {
+  margin-left: -8px;
+  }
+}
+
+#secondquestion .fullchores .title {
+  font-size: 18px;
+  font-family: "SamsungOne", arial, sans-serif;
+  /* font-weight: bold; */
+  text-align: left;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1023px) {
+  #secondquestion .fullchores .title {
+    font-size: 15px;
+  }
+  #secondquestion .fullchores .numberTitles {
+    font-size: 15px;
+    text-align: left;
+  }
+  #secondquestion .fullchores .numberTitles.last {
+    margin-top: -10px;
+    text-align: left;
+  }
+}
+
+#secondquestion .chores .chorecontainer {
+  display: flex;
+}
+
+#secondquestion .chores .chorecontainer .hoursinput {
+  width: 100%;
+  padding-left: 20px;
+  margin-bottom: 70px;
+}
+#secondquestion .chores .chorecontainer .hoursinput h3 {
+  text-align: left;
+}
+
+#secondquestion .chores .ratingicon img {
+  width: 100%;
+  max-width: 250px;
+}
+
+#secondquestion .chorecontainer input {
+  background-color: #fff;
+  border: 1px solid #fff;
+  appearance: auto;
+  width: 100%;
+  height: 30px;
+  font-size: 0.93em;
+  max-width: 80px;
+  display: block;
+}
+@media only screen and (max-width: 768px) {
+  #secondquestion .fullchores .input.first {
+    margin-top: 20px;
+  }
+  #secondquestion .fullchores .input.second {
+    /* margin-top: 10px; */
+  }
+}
+
+
+
+#secondquestion  .buttoncontainer{
+margin-top: 53px;
+margin-bottom: 53px;
+}
+
+#secondquestion  .buttoncontainer .calculateloadscrore{
+  padding: 10px 24px 11px 24px;
+  border-radius: 20px;
+  background-color: #000;
+  border: none;
+  color: #fff;
+
+  display: inline-flex;
+
+  justify-content: center;
+
+  align-items: center;
+  position: relative;
+  vertical-align: middle;
+
+  font-family: "SamsungOne", arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 19px;
+  white-space: normal;
+  /*max-width: 368px; /* IT only */
+  /* max-width: 268px; ES only */
+  max-width: 468px; /*PL only*/
+  /* width: 100%; ES only */
+}
+
+@media only screen and (max-width: 1023px) {
+  #secondquestion .buttoncontainer .calculateloadscrore{
+    margin-bottom: 10px;
+    font-size: 12px;
+    padding: 10px 14px 11px 13px;
+    height: auto;
+    max-width: 268px;
+  }
+}
+
+#secondquestion .buttoncontainer .backtoliving{
+  padding: 10px 24px 11px 24px;
+  border-radius: 20px;
+  background-color: #fff;
+  border: none;
+  color: #000;
+  border: 1px solid #000;
+
+  display: inline-flex;
+
+  justify-content: center;
+
+  align-items: center;
+  position: relative;
+  vertical-align: middle;
+
+  font-family: "SamsungOne", arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 19px;
+  white-space: nowrap;
+  /* max-width: 368px;  IT only */ 
+   max-width: 268px;
+  width: 100%; 
+}
+
+@media only screen and (max-width: 1023px) {
+  #secondquestion .buttoncontainer .backtoliving{
+    margin-bottom: 30px;
+    font-size: 12px;
+  }
+}
+
+
+.buttongrid {
+  display: flex;
+  max-width: 800px;
+  width: 100%;
+  justify-content: space-around;
+  padding: 30px 0;
+}
+
+#toplayer {
+  height: 100%;
+  background-color: #1428a0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#secondlayer {
+  height: 100vh;
+  background-color: purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.tileheader {
+  margin-bottom: 80px;
+}
+#results {
+  height: 100%;
+
+  background-color: #f7f5f2;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center;
+  flex-direction: column; */
+  color: #000;
+  padding: 40px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#results h2 {
+  font-size: 42px;
+  /* margin-top: 135px; */
+  margin-top: 20px;
+  margin-bottom: 62px;
+  font-weight: bold;
+  font-family: "SamsungOne", arial, sans-serif;
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  #results h2 {
+    font-size: 24px;
+    padding: 0 10px;
+  }
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+  #results h2 {
+    font-size: 36px;
+    line-height: 1.16;
+  }
+}
+
+
+
+#results .resultbox{
+  background-color: #fff;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  align-items: center;
+  display: flex;
+}
+
+#results .resultbox p.legendtaskname{
+  font-size: 18px;
+  margin-bottom: 0;
+  text-align: left;
+  font-weight: bold;
+  
+
+}
+
+@media only screen and (max-width: 768px) {
+  #results .resultbox p.legendtaskname{
+    font-size: 15px;
+  }
+}
+#results .resultbox p.percentage{
+  font-size: 30px;
+  margin-bottom: 0;
+  text-align: left;
+  font-weight: bold;
+
+}
+@media only screen and (max-width: 768px) {
+  #results .resultbox p.percentage{
+    font-size: 18px;
+  }
+}
+#results .resultbox p.legendtaskname a{
+  text-decoration: none;
+  color: #000;
+
+}
+#results .resultbox .colorblock{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+
+}
+@media only screen and (max-width: 320px) {
+  #results .resultbox .colorblock{
+    height: 20px;
+    width: 20px;
+  
+  
+  }
+}
+@media only screen and (max-width: 320px) {
+  .clearpadding {
+    padding: 0;
+  }
+}
+
+#results .resultbox .icons img {
+  max-width: 60px;
+}
+#results .legend {
+  margin-top: 68px;
+}
+
+#results .restart button {
+  padding: 10px 24px 11px 24px;
+  border-radius: 20px;
+  background-color: #fff;
+  border: none;
+  color: #000;
+  border: 1px solid #000;
+
+  display: inline-flex;
+
+  justify-content: center;
+
+  align-items: center;
+  position: relative;
+  vertical-align: middle;
+
+  font-family: "SamsungOne", arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 19px;
+  white-space: nowrap;
+  max-width: 468px;
+  /* width: 100%; */
+  margin-top: 50px;
+
+  /*max-width: 480px; /* Poland edit only */
+}
+
+@media only screen and (max-width: 768px) {
+  #results .restart button {
+    font-size: 12px;
+    max-width: 358px;
+  }
+}
+@media only screen and (max-width: 480px)  {
+  #results .restart button {
+    white-space:normal;
+  }
+}
+
+
+#results .moimage img{
+  width: 100%;
+  border-radius: 50%;
+}
+@media only screen and (max-width: 768px) {
+  #results .moimage {
+    padding: 0 20px;
+  }
+}
+
+#results .motipscontainer{
+  margin-top: 50px;
+}
+#results h2.tipstitle {
+  font-size: 42px;
+  /* margin-top: 135px; */
+  margin-top: 90px;
+  margin-bottom: 23px;
+  font-weight: bold;
+  /* font-family: "SamsungOne", arial, sans-serif; */
+  font-family: "SamsungOne", arial, sans-serif;
+  text-align: left;
+}
+
+@media only screen and (max-width: 767px) {
+  #results h2.tipstitle {
+    font-size: 24px;
+    text-align: center;
+    padding:  0 20px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  #results h2.tipstitle {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+  #results h2.tipstitle {
+   text-align: left;
+   font-size: 24px;
+   margin-top: 30px;
+  }
+}
+
+#results .tipstext {
+  text-align: left;
+  font-family: "SamsungOne", arial, sans-serif;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+  #results .tipstext {
+    padding: 0 20px;
+  }
+}
+#results .totalscoretitle {
+  font-size: 35px;
+  font-family: "SamsungOne", arial, sans-serif;
+  font-weight: bold;
+  text-align: left;
+  word-break: break-word;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+  #results .totalscoretitle {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+  #results .totalscoretitle {
+    font-size: 30px;
+    padding-left: 10px;
+  }
+}
+
+#results .totalscorenumber{
+  font-size: 85px;
+  font-family: "SamsungOne", arial, sans-serif;
+  font-weight: bold;
+}
+
+#results .outoftotaltext{
+  font-size: 24px;
+  font-family: "SamsungOne", arial, sans-serif;
+}
+
+@media only screen and (max-width: 1023px) {
+  #results .outoftotaltext{
+    font-size: 15px;
+    font-family: "SamsungOne", arial, sans-serif;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #results .totalscorenumber{
+    font-size: 56px;
+    text-align: left;
+  }
+
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+  #results .totalscorenumber{
+    font-size: 60px;
+  }
+}
+
+#results .totalscoredescriptions {
+  font-family: "SamsungOne", arial, sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
+
+@media only screen and (max-width: 1023px) {
+#results .graphresults {
+padding: 0 5px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+  #results .totalscoredescriptions {
+    font-size: 15px;
+    padding: 0 10px;
+  }
+
+}
+ @media only screen and (max-width: 768px) {
+  #results  .results-mobile-padding {
+    padding: 0 20px;
+  
+  }
+}
+

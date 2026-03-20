@@ -1,0 +1,28 @@
+#ratinglayerone{
+    background-color: blue;
+    height:100vh;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+    color: white;
+}
+
+#ratinglayertwo{
+    background-color: orange;
+    height:100vh;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+    color: white;
+}
+#generateresults{
+    background-color: grey;
+    height:100vh;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+    color: white;
+}

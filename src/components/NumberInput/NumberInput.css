@@ -1,0 +1,78 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+}
+
+@media only screen and (max-width: 991px) {
+    .number-counter  {
+       margin-bottom: 20px;
+    }
+}
+.number-counter input {
+    
+    text-align: center;
+    appearance: none;
+    background: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    font-family: "SamsungOne", arial, sans-serif;
+    font-size: 16px;
+    height: 100%;
+    max-height: 28px;
+    outline: 0;
+    resize: none;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    max-width: 82px;
+}
+@media only screen and (max-width: 991px) {
+    .number-counter input {
+        max-width: 160px; 
+        font-size: 15px;
+    }
+}
+.plus,
+.minus {
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    display: inline-flex;
+    height: 100%;
+    max-height: 36px;
+    justify-content: center;
+    vertical-align: middle;
+    width: 27px;
+    color: black;
+    /* font-size: ; */
+    
+}
+.minus{
+    border-bottom-left-radius: 50%;
+    border-right: 0;
+    border-top-left-radius: 50%;
+}
+.plus{
+    border-bottom-right-radius: 50%;
+    border-left: 0;
+    border-top-right-radius: 50%;
+}
+.number-counter {
+    display: inline-flex;
+    font-size: 0;
+    height: 32px;
+}
+.plus svg,
+.minus svg {
+    height: 15px;
+    width: auto;
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
