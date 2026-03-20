@@ -1,4 +1,4 @@
-# Invisible Load project
+# Invisible Calulator Load project
 
 Project that has a load calucator that allows users to get a score on how much household task they do. It will give them advice on the score.
 
